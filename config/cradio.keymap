@@ -38,13 +38,22 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <10 11 12>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             bindings = <
 &kp Q             &kp W            &kp E                &kp R             &kp T                 &kp Y                 &kp U             &kp I                 &kp O            &kp P
-&HRM LEFT_META A  &HRM LEFT_ALT S  &HRM LEFT_CONTROL D  &HRM RIGHT_ALT F  &kp G                 &kp H                 &HRM RIGHT_ALT J  &HRM RIGHT_CONTROL K  &HRM LEFT_ALT L  &HRM RIGHT_META SQT
+&HRM LEFT_META A  &HRM LEFT_ALT S  &HRM LEFT_CONTROL D  &HRM RIGHT_ALT F  &HRM LEFT_SHIFT G     &kp H                 &HRM RIGHT_ALT J  &HRM RIGHT_CONTROL K  &HRM LEFT_ALT L  &HRM RIGHT_META SQT
 &kp Z             &kp X            &kp C                &kp V             &kp B                 &kp N                 &kp M             &kp COMMA             &kp DOT          &kp FSLH
                                                         &lt 2 BACKSPACE   &mt LEFT_SHIFT TAB    &mt RIGHT_ALT RETURN  &lt 1 SPACE
             >;
@@ -79,7 +88,7 @@
 
         gameing {
             bindings = <
-&kp TAB           &kp Q  &kp T  &kp D      &kp J         &kp J       &kp K         &kp SEMI  &kp L      &kp E
+&kp TAB           &kp Q  &kp T  &kp D      &kp J         &kp K       &kp P         &kp SEMI  &kp L      &kp E
 &kp LEFT_SHIFT    &kp A  &kp S  &kp I      &kp G         &kp M       &kp N         &kp Y     &kp SLASH  &kp H
 &kp LEFT_CONTROL  &kp Z  &kp X  &kp W      &kp V         &kp B       &kp F         &kp U     &kp COMMA  &trans
                                 &kp SPACE  &kp RETURN    &kp ESCAPE  &kp LEFT_ALT
