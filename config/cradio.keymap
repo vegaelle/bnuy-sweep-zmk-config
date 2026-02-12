@@ -53,7 +53,7 @@
         default_layer {
             bindings = <
 &kp Q             &kp W            &kp E                &kp R             &kp T                 &kp Y                 &kp U             &kp I                 &kp O            &kp P
-&HRM LEFT_META A  &HRM LEFT_ALT S  &HRM LEFT_CONTROL D  &HRM RIGHT_ALT F  &HRM LEFT_SHIFT G     &kp H                 &HRM RIGHT_ALT J  &HRM RIGHT_CONTROL K  &HRM LEFT_ALT L  &HRM RIGHT_META SQT
+&HRM LEFT_META A  &HRM LEFT_ALT S  &HRM LEFT_CONTROL D  &HRM RIGHT_ALT F  &HRM LEFT_SHIFT G     &kp H                 &HRM RIGHT_ALT J  &HRM RIGHT_CONTROL K  &HRM LEFT_ALT L  &HRM RIGHT_META SEMI
 &kp Z             &kp X            &kp C                &kp V             &kp B                 &kp N                 &kp M             &kp COMMA             &kp DOT          &kp FSLH
                                                         &lt 2 BACKSPACE   &mt LEFT_SHIFT TAB    &mt RIGHT_ALT RETURN  &lt 1 SPACE
             >;
