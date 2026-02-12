@@ -90,7 +90,7 @@
             bindings = <
 &kp TAB           &kp Q  &kp T  &kp D      &kp J         &kp K       &kp P         &kp SEMI  &kp L      &kp E
 &kp LEFT_SHIFT    &kp A  &kp S  &kp I      &kp G         &kp M       &kp N         &kp Y     &kp SLASH  &kp H
-&kp LEFT_CONTROL  &kp Z  &kp X  &kp W      &kp V         &kp B       &kp F         &kp U     &kp COMMA  &trans
+&kp LEFT_CONTROL  &kp Z  &kp X  &kp W      &kp V         &kp B       &kp F         &kp U     &kp COMMA  &to 0
                                 &kp SPACE  &kp RETURN    &kp ESCAPE  &kp LEFT_ALT
             >;
         };
